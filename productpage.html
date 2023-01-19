@@ -6,18 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
    <style>
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
     .header{
         display: flex;
-        height: 30px;
+        height: 50px;
         border: 2px solid red;
+        justify-content: space-between;
     }
     .logo>img{
         width: 50px;
     }
+    .endlogo{
+        display: flex;
+        border: 2px solid red;
+    }
+    .endlogo>div{
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid red;
+    }
+    .endlogo>div>img{
+        width: 50px;
+        display: inline;
+    }
     .topdiv{
         display: flex;
-        height: 30px;
+        height: 100%;
         border: 2px solid red;
+    }
+    .topdiv>div{
+        border: 2px red solid;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100%;
+       }
+    .salelogo{
+        display: flex;
+    }
+    #gift{
+        width: 20px;
+    }
+    .green{
+        background-color: #43A047;
+         flex-grow: 1;
+    }
+    .white{
+        background-color: #CFD8DC;
+        flex-grow: 2;
     }
    </style>
 </head>
@@ -27,24 +64,35 @@
             <img src="./CASE BASE.png" alt="logo">
         </div>
         <div class="topdiv">
-            <p>NEW ARRIVALS</p>
-            <p>CASES & SLEEVES</p>
-            <p>ACCESSORIES</p>
-            <p>SALE</p>
-            <p>BAGS & WALLETS</p>
-            <p>HOME OFFICE</p>
-            <div><img src="https://images.dailyobjects.com/marche/corporate-page/gifting-update.png?tr=cm-pad_resize,v-2" alt="giff"><p>GIFTING</p></div>
+            <div><p>NEW ARRIVALS</p></div>
+            <div><p>CASES & SLEEVES</p></div>
+            <div><p>ACCESSORIES</p></div>
+            <div><p>BAGS & WALLETS</p></div>
+            <div><p>HOME OFFICE</p></div>
+            </div>
+        <div class="endlogo">
+            <div><img src="https://cdn-icons-png.flaticon.com/512/1656/1656850.png" alt="bagg"></div>
+            <div><img src="https://cdn-icons-png.flaticon.com/512/152/152533.png" alt="login"></div>
+            <div><img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="search"></div>
+
         </div>
-        <div class="endlogo"></div>
     </div>
     <hr>
+<div class="salelogo">
     <div class="green">
-        <img src="	https://images.dailyobjects.com/marche/assets/imag…esktop.png?tr=cm-pad_resize,v-2,w-1326,dpr-2,q-60" alt="dish">
+        <h1>UPTO 70%</h1>
+        <h3>REPUBLIC DAY SALE</h3>
     </div>
+    <div class="white">
+        <p>FREE <br>
+           DUFFLE BAG WORTH ₹2999 ON ORDERS ABOVE ₹2499
+        </p>
+        <hr>
+        <p>BI-FOLD WALLET WORTH ₹1999 ON ORDERS ABOVE ₹1999</p>
+    </div>
+</div>
     <p1 class="newarrival">NEW ARRIVALS</p1>
-    <div class="panel">
-        <img src="https://images.dailyobjects.com/marche/icons/new-a…all.png?tr=cm-pad_resize,v-2,w-70,h-70,dpr-2,q-60" alt="ALL">
-        <img src="" alt="">
+
     </div>
 
 
