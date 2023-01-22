@@ -6,57 +6,237 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Page</title>
    <style>
-    * {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    .header{
-        display: flex;
-        height: 50px;
-        border: 2px solid red;
-        justify-content: space-between;
-    }
-    .logo>img{
-        width: 50px;
-    }
-    .endlogo{
-        display: flex;
-        border: 2px solid red;
-    }
-    .endlogo>div{
-        margin-left: 10px;
-        margin-right: 10px;
-        border: 2px solid red;
-    }
-    .endlogo>div>img{
-        width: 50px;
-        display: inline;
-    }
-    .topdiv{
-        display: flex;
-        height: 100%;
-        border: 2px solid red;
-    }
-    .topdiv>div{
-        border: 2px red solid;
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 100%;
-       }
-    .salelogo{
-        display: flex;
-    }
-    #gift{
-        width: 20px;
-    }
-    .green{
-        background-color: #43A047;
-         flex-grow: 1;
-    }
-    .white{
-        background-color: #CFD8DC;
-        flex-grow: 2;
-    }
-   </style>
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.logo>img{
+    width: 50px;
+}
+.endlogo{
+    display: flex;
+
+}
+.endlogo>div{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.endlogo>div>img{
+    width: 50px;
+    display: inline;
+}
+.topdiv{
+    display: flex;
+    height: 100%;
+
+}
+.topdiv>div{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+   }
+.salelogo{
+    display: flex;
+}
+#gift{
+    width: 20px;
+}
+.green{
+    background-color: #43A047;
+    flex: 1;
+    
+}
+.green>h1{
+    margin-left: 50px;
+    font-size: 36px;
+
+}
+.green>p{
+    margin-left: 50px;
+    font-size: 36px;
+    margin-right: 30px;
+}
+.white{
+    background-color: #CFD8DC;
+    flex: 2;
+}
+.white p{
+    font-size: 25px;
+    margin-left: 10px;
+   
+}
+.bagb>img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shopby{
+    display: flex;
+}
+.bottom{
+    display: flex;
+    
+    margin: auto;
+}
+.bottom>div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.story{
+    display:flex;
+}
+.story>div{
+    width: 50%;
+}
+.story>div>img{
+    width: 100%;
+}
+.cas{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropcas{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropcas a:hover{
+    background-color: black;
+    color: white;      
+}
+.casesl{
+    display: inline-block;
+    position: relative;
+
+
+}
+.casesl:hover .dropcas{
+    display: block;
+}
+.casesl:hover .cas{
+    background-color: transparent;
+}
+.bagwall{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropbagwall{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropbagwall a:hover{
+    background-color: black;
+    color: white;      
+}
+.bagandwall{
+    display: inline-block;
+    position: relative;
+
+
+}
+.bagandwall:hover .dropbagwall{
+    display: block;
+}
+.bagandwall:hover .bagwall{
+    background-color: transparent;
+}
+.acc{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropacc{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropacc a:hover{
+    background-color: black;
+    color: white;      
+}
+.access{
+    display: inline-block;
+    position: relative;
+
+
+}
+.access:hover .dropacc{
+    display: block;
+}
+.access:hover .acc{
+    background-color: transparent;
+}
+.Homeoffice{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropHome{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropHome a:hover{
+    background-color: black;
+    color: white;      
+}
+.Homeoff{
+    display: inline-block;
+    position: relative;
+
+
+}
+.Homeoff:hover .dropHome{
+    display: block;
+}
+.Homeoff:hover .Homeoffice{
+    background-color: transparent;
+}
+.form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#search{
+    width: 80%;
+    height: 20px;
+    
+}
+.cointainer{
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+    </style>
+
 </head>
 <body>
     <div class="header">
@@ -81,7 +261,7 @@
 <div class="salelogo">
     <div class="green">
         <h1>UPTO 70%</h1>
-        <h3>REPUBLIC DAY SALE</h3>
+        <p>REPUBLIC DAY SALE</p>
     </div>
     <div class="white">
         <p>FREE <br>
@@ -91,10 +271,66 @@
         <p>BI-FOLD WALLET WORTH ₹1999 ON ORDERS ABOVE ₹1999</p>
     </div>
 </div>
-    <p1 class="newarrival">NEW ARRIVALS</p1>
+    <form class="form">
+        <input type="text" placeholder="Search" id="search" />
+        <input type="submit" value="Search" />
+    </form>
 
-    </div>
+<div class="cointainer">
 
+</div>
 
 </body>
+<script>
+let cointainerEle=document.getElementsByClassName("cointainer")
+let CartArr=JSON.parse(localStorage.getItem("CWCART"))||[]
+async function FetchData(){
+      try{
+        let request= await fetch("http://localhost:3000/items")
+        //fetch from local data db.json
+        //npm install -g json-server
+        //json-server --watch db.json
+
+        request=await request.json()
+        console.log(request)
+        Display(request)
+      }
+      catch(err){
+        console.log(err)
+      }
+    }
+
+    FetchData()
+
+
+function Display(data){
+cointainerEle.innerHTML=""
+data.forEach((element)=>{
+  let divEle=document.createElement("div")
+  let imgEle=document.createElement("img")
+  imgEle.src=element.image
+  let h2=document.createElement("h2")
+  h2.innerText=element.name
+  let pt=document.createElement("p")
+  pt.innerText="Rs"+" "+element.price
+
+  let button=document.createElement("button")
+  button.innerText="Buy"
+  button.style.margin="auto"
+
+  button.addEventListener("click",()=>{
+    CartArr.push(element)
+    localStorage.setItem("CWCART",JSON.stringify(CartArr))
+  })
+
+  divEle.append(imgEle)
+  cointainerEle.append(divEle)
+
+
+})
+
+}
+
+
+</script>
 </html>

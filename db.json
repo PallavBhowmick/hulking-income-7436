@@ -1,0 +1,349 @@
+{
+  "items": [
+      {
+        "name": "Blue Flekt Silicone Case Cover IPhone 4",
+        "brand": "Apple",
+        "image": "https://cdnmedia.placewellretail.com/pub/media/catalog/product/cache/d2f155c8ae3423b25125c336aa39579e/i/p/iphone-11_green_5_2_1.webp",
+        "quantity": 75,
+        "price": 927.00,
+        "Category": "IPhone Mobile Case",
+        "element" :"Phone",
+        "id": 1
+    },
+        {
+        "name": "Blue Flekt Silicone Case Cover IPhone 5",
+        "brand": "Apple",
+        "image": "https://cdnmedia.placewellretail.com/pub/media/catalog/product/cache/d2f155c8ae3423b25125c336aa39579e/i/p/iphone-11_green_5_2_1.webp",
+        "quantity": 175,
+        "price": 999.00,
+        "Category": "IPhone Mobile Case",
+        "element" :"Phone",
+        "id": 2
+    },
+       {
+        "name": "Blue Flekt Silicone Case Cover IPhone 6",
+        "brand": "Apple",
+        "image": "https://cdnmedia.placewellretail.com/pub/media/catalog/product/cache/d2f155c8ae3423b25125c336aa39579e/i/p/iphone-11_green_5_2_1.webp",
+        "quantity": 575,
+        "price": 1270.00,
+        "Category": "IPhone Mobile Case",
+        "element" :"Phone",
+        "id": 3
+    },
+        {
+        "name": "Grey Aeon Case Cover For OnePlus 8",
+        "brand": "OnePlus",
+        "image": "https://oasis.opstatics.com/content/dam/oasis/page/2022/operation/feb/0211/nord-ce-2-5g/Gray.png",
+        "quantity": 75,
+        "price": 927.00,
+        "Category": "OnePlus Mobile Case",
+        "element" :"Phone",
+        "id": 4
+    },
+        {
+        "name": "Grey Aeon Case Cover For OnePlus 9",
+        "brand": "OnePlus",
+        "image": "https://oasis.opstatics.com/content/dam/oasis/page/2022/operation/feb/0211/nord-ce-2-5g/Gray.png",
+        "quantity": 175,
+        "price": 999.00,
+        "Category": "OnePlus Mobile Case",
+        "element" :"Phone",
+        "id": 5
+    },
+       {
+        "name": "Grey Aeon Case Cover For OnePlus 10",
+        "brand": "OnePlus",
+        "image": "https://oasis.opstatics.com/content/dam/oasis/page/2022/operation/feb/0211/nord-ce-2-5g/Gray.png",
+        "quantity": 575,
+        "price": 1270.00,
+        "Category": "OnePlus Mobile Case",
+        "element" :"Phone",
+        "id": 6
+    },
+       {
+        "name": "Black Aeon Case Cover For Samsung Galaxy S20",
+        "brand": "Samsung",
+        "image": "https://images.samsung.com/is/image/samsung/p6pim/in/2208/gallery/in-galaxy-z-fold4-leather-cover-ef-vf936-ef-vf936lbegin-533059352?$650_519_PNG$",
+        "quantity": 75,
+        "price": 927.00,
+        "Category": "Samsung Mobile Case",
+        "element" :"Phone",
+        "id": 7
+    },
+        {
+        "name": "Black Aeon Case Cover For Samsung Galaxy S21",
+        "brand": "Samsung",
+        "image": "https://oasis.opstatics.com/content/dam/oasis/page/2022/operation/feb/0211/nord-ce-2-5g/Gray.png",
+        "quantity": 175,
+        "price": 999.00,
+        "Category": "Samsung Mobile Case",
+        "element" :"Phone",
+        "id": 8
+    },
+       {
+        "name": "Black Aeon Case Cover For Samsung Galaxy S22",
+        "brand": "Samsung",
+        "image": "https://oasis.opstatics.com/content/dam/oasis/page/2022/operation/feb/0211/nord-ce-2-5g/Gray.png",
+        "quantity": 575,
+        "price": 1270.00,
+        "Category": "Samsung Mobile Case",
+        "element" :"Phone",
+        "id": 9
+    },    {
+        "name": "Black Samsung Galaxy Watch 5",
+        "brand": "Samsung",
+        "image": "https://images.samsung.com/in/galaxy-watch5-pro/feature/galaxy-watch5-pro-battery-display-mo.png",
+        "quantity": 75,
+        "price": 927.00,
+        "Category": "Samsung Watch",
+        "element":"Home Office",
+        "id": 10
+    },
+        {
+        "name": "Black Samsung Galaxy Watch 4",
+        "brand": "Samsung",
+        "image": "https://m.media-amazon.com/images/I/61Nhi7ovjkL._SL1500_.jpg",
+        "quantity": 175,
+        "price": 999.00,
+        "Category": "Samsung Watch",
+        "element":"Home Office",
+        "id": 11
+    },   {
+        "name": "Apple Watch Ultra",
+        "brand": "Apple",
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQE23ref_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-alpine-ultra_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660713657930%2C1660927566964%2C1661371890735",
+        "quantity": 75,
+        "price": 927.00,
+        "Category": "Apple Watch",
+        "element":"Home Office",
+        "id": 12
+    },
+        {
+        "name": "Apple Watch 3",
+        "brand": "Apple",
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQE23ref_VW_34FR+watch-49-titanium-ultra_VW_34FR_WF_CO+watch-face-49-alpine-ultra_VW_34FR_WF_CO_GEO_IN?wid=750&hei=712&trim=1%2C0&fmt=p-jpg&qlt=95&.v=1660713657930%2C1660927566964%2C1661371890735",
+        "quantity": 175,
+        "price": 999.00,
+        "Category": "Apple Watch",
+        "element":"Home Office",
+        "id": 13
+    },
+    {
+        "name": "Apple MacBook Air M1",
+        "brand": "Apple",
+        "image": "https://cdn.vox-cdn.com/thumbor/4FY_VHvSCm0r4R9eUxmeHfL03aA=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22046476/vpavic_4291_20201113_0366.0.jpg",
+        "quantity": 75,
+        "price": 1927.00,
+        "Category": "Laptop",
+        "element":"Home Office",
+        "id": 14
+    },
+        {
+        "name": "Apple MacBook Air M2",
+        "brand": "Apple",
+        "image": "https://cdn.vox-cdn.com/thumbor/4FY_VHvSCm0r4R9eUxmeHfL03aA=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22046476/vpavic_4291_20201113_0366.0.jpg",
+        "quantity": 175,
+        "price": 2999.00,
+        "Category": "Laptop",
+        "element":"Home Office",
+        "id": 15
+    },
+        {
+        "name": "Apple MacBook Air",
+        "brand": "Apple",
+        "image": "https://cdn.vox-cdn.com/thumbor/4FY_VHvSCm0r4R9eUxmeHfL03aA=/0x0:2040x1360/2000x1333/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22046476/vpavic_4291_20201113_0366.0.jpg",
+        "quantity": 175,
+        "price": 1599.00,
+        "Category": "Laptop",
+        "element":"Home Office",
+        "id": 16
+    },   {
+        "name": "Apple Lightning Cable",
+        "brand": "Apple",
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQGH2?wid=1200&hei=630&fmt=jpeg&qlt=95&.v=1618617119000",
+        "quantity": 75,
+        "price": 127.00,
+        "Category": "Cable",
+        "element":"Accessories",
+        "id": 17
+    },    {
+        "name": "Samsung Type-C Cable",
+        "brand": "Samsung",
+        "image": "https://m.media-amazon.com/images/I/61a+S0DE-GL._SL1500_.jpg",
+        "quantity": 75,
+        "price": 97.00,
+        "Category": "Cable",
+        "element":"Accessories",
+        "id": 18
+    },   
+ {
+        "name": "Samsung MicroUSB Cable",
+        "brand": "Samsung",
+        "image": "https://m.media-amazon.com/images/I/61a+S0DE-GL._SL1500_.jpg",
+        "quantity": 75,
+        "price": 50.00,
+        "Category": "Cable",
+        "element":"Accessories",
+        "id": 19
+    },
+    {
+        "name": "OnePlus Type-C Cable",
+        "brand": "OnePlus",
+        "image": "https://www.mytrendyphone.eu/images/Oneplus-USB-Type-C-Cable-1m-Red-White-19032019-01-p.jpg",
+        "quantity": 275,
+        "price": 97.00,
+        "Category": "Cable",
+        "element":"Accessories",
+        "id": 20
+    },     {
+        "name": "OnePlus Charger",
+        "brand": "OnePlus",
+        "image": "https://www.sacbee.com/reviews/wp-content/uploads/2022/04/ailkin-sacramentobee.jpg",
+        "quantity": 75,
+        "price": 397.00,
+        "Category": "Charger",
+        "element":"Accessories",
+        "id": 21
+    },   
+ {
+        "name": "Samsung Charger",
+        "brand": "Samsung",
+        "image": "https://www.sacbee.com/reviews/wp-content/uploads/2022/04/ailkin-sacramentobee.jpg",
+        "quantity": 75,
+        "price": 350.00,
+        "Category": "Charger",
+        "element":"Accessories",
+        "id": 22
+    },
+        {
+        "name": "Apple Charger",
+        "brand": "Apple",
+        "image": "https://www.sacbee.com/reviews/wp-content/uploads/2022/04/ailkin-sacramentobee.jpg",
+        "quantity": 75,
+        "price": 599.00,
+        "Category": "Charger",
+        "element":"Home Office",
+        "id": 23
+    },    {
+        "name": "OnePlus Bullet",
+        "brand": "OnePlus",
+        "image": "https://www.sacbee.com/reviews/wp-content/uploads/2022/04/ailkin-sacramentobee.jpg",
+        "quantity": 75,
+        "price": 2000.00,
+        "Category": "EarBuds",
+        "element":"Accessories",
+        "id": 24
+    },   
+ {
+        "name": "Samsung Earphone",
+        "brand": "Samsung",
+        "image": "https://www.sacbee.com/reviews/wp-content/uploads/2022/04/ailkin-sacramentobee.jpg",
+        "quantity": 75,
+        "price": 350.00,
+        "Category": "EarBuds",
+        "element":"Accessories",
+        "id": 25
+    },
+        {
+        "name": "Apple Airbuds",
+        "brand": "Apple",
+        "image": "https://www.sacbee.com/reviews/wp-content/uploads/2022/04/ailkin-sacramentobee.jpg",
+        "quantity": 75,
+        "price": 1599.00,
+        "Category": "EarBuds",
+        "element":"Home Office",
+        "id": 26
+    },  {
+        "name": "Purse",
+        "brand": "LV",
+        "image": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm-monogram-canvas-handbags--M41177_PM2_Front%20view.jpg",
+        "quantity": 75,
+        "price": 12000.00,
+        "Category": "Purse",
+        "element":"Bag",
+        "id": 27
+    },   
+ {
+        "name": "Purse",
+        "brand": "Dior",
+        "image": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm-monogram-canvas-handbags--M41177_PM2_Front%20view.jpg",
+        "quantity": 75,
+        "price": 35050.00,
+        "Category": "Purse",
+        "element":"Bag",
+        "id": 28
+    },
+        {
+        "name": "Purse",
+        "brand": "Versace",
+        "image": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm-monogram-canvas-handbags--M41177_PM2_Front%20view.jpg",
+        "quantity": 75,
+        "price": 15999.00,
+        "Category": "Purse",
+        "element":"Bag",
+        "id": 29
+    },
+    {
+        "name": "Wallet",
+        "brand": "LV",
+        "image": "https://media.dior.com/couture/ecommerce/media/catalog/product/U/Q/1628088400_2OBBC027YSE_H03E_E01_GH.jpg",
+        "quantity": 75,
+        "price": 1200.00,
+        "Category": "Wallet",
+        "element":"Bag",
+        "id": 30
+    },   
+ {
+        "name": "Wallet",
+        "brand": "Dior",
+        "image": "https://media.dior.com/couture/ecommerce/media/catalog/product/U/Q/1628088400_2OBBC027YSE_H03E_E01_GH.jpg",
+        "quantity": 75,
+        "price": 3550.00,
+        "Category": "Wallet",
+        "element":"Bag",
+        "id": 31
+    },
+        {
+        "name": "Wallet",
+        "brand": "Versace",
+        "image": "https://media.dior.com/couture/ecommerce/media/catalog/product/U/Q/1628088400_2OBBC027YSE_H03E_E01_GH.jpg",
+        "quantity": 75,
+        "price": 1999.00,
+        "Category": "Wallet",
+        "element":"Bag",
+        "id": 32
+    },    {
+        "name": "TravelBag",
+        "brand": "LV",
+        "image": "https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw34c27b8e/original/90_1003067-1A01444_5B05E_20_LaGrecaSignatureMediumTravelBag-LaGrecaSignatureBag-versace-online-store_2_2.jpg?sw=850&sh=1200&sm=fit",
+        "quantity": 75,
+        "price": 1200.00,
+        "Category": "TravelBag",
+        "element":"Bag",
+        "id": 33
+    },   
+ {
+        "name": "TravelBag",
+        "brand": "Dior",
+        "image": "https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw34c27b8e/original/90_1003067-1A01444_5B05E_20_LaGrecaSignatureMediumTravelBag-LaGrecaSignatureBag-versace-online-store_2_2.jpg?sw=850&sh=1200&sm=fit",
+        "quantity": 75,
+        "price": 3550.00,
+        "Category": "TravelBag",
+        "element":"Bag",
+        "id": 34
+    },
+        {
+        "name": "TravelBag",
+        "brand": "Versace",
+        "image": "https://www.versace.com/dw/image/v2/ABAO_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw34c27b8e/original/90_1003067-1A01444_5B05E_20_LaGrecaSignatureMediumTravelBag-LaGrecaSignatureBag-versace-online-store_2_2.jpg?sw=850&sh=1200&sm=fit",
+        "quantity": 75,
+        "price": 1999.00,
+        "Category": "TravelBag",
+        "element":"Bag",
+        "id": 35
+    }
+
+
+  ]
+
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Page</title>
+    <style>
+        * {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.logo>img{
+    width: 50px;
+}
+.endlogo{
+    display: flex;
+
+}
+.endlogo>div{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.endlogo>div>a>img{
+    width: 50px;
+}
+.topdiv{
+    display: flex;
+    height: 100%;
+
+}
+.topdiv>div{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+   }
+.salelogo{
+    display: flex;
+}
+#gift{
+    width: 20px;
+}
+.green{
+    background-color: #43A047;
+    flex: 1;
+    
+}
+.green>h1{
+    margin-left: 50px;
+    font-size: 36px;
+
+}
+.green>p{
+    margin-left: 50px;
+    font-size: 36px;
+    margin-right: 30px;
+}
+.white{
+    background-color: #CFD8DC;
+    flex: 2;
+}
+.white p{
+    font-size: 25px;
+    margin-left: 10px;
+   
+}
+.bagb>img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.shopby{
+    display: flex;
+}
+.bottom{
+    display: flex;
+    
+    margin: auto;
+}
+.bottom>div{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.story{
+    display:flex;
+}
+.story>div{
+    width: 50%;
+}
+.story>div>img{
+    width: 100%;
+}
+.cas{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropcas{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropcas a:hover{
+    background-color: black;
+    color: white;      
+}
+.casesl{
+    display: inline-block;
+    position: relative;
+
+
+}
+.casesl:hover .dropcas{
+    display: block;
+}
+.casesl:hover .cas{
+    background-color: transparent;
+}
+.bagwall{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropbagwall{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropbagwall a:hover{
+    background-color: black;
+    color: white;      
+}
+.bagandwall{
+    display: inline-block;
+    position: relative;
+
+
+}
+.bagandwall:hover .dropbagwall{
+    display: block;
+}
+.bagandwall:hover .bagwall{
+    background-color: transparent;
+}
+.acc{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropacc{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropacc a:hover{
+    background-color: black;
+    color: white;      
+}
+.access{
+    display: inline-block;
+    position: relative;
+
+
+}
+.access:hover .dropacc{
+    display: block;
+}
+.access:hover .acc{
+    background-color: transparent;
+}
+.Homeoffice{
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    border: 0px transparent;
+}
+.dropHome{
+    display: none;
+    position: absolute ;
+    background-color: white;
+    max-width: 300px;
+    max-height: 100px;
+    z-index: 1;
+    text-align: center;
+   }
+.dropHome a:hover{
+    background-color: black;
+    color: white;      
+}
+.Homeoff{
+    display: inline-block;
+    position: relative;
+
+
+}
+.Homeoff:hover .dropHome{
+    display: block;
+}
+.Homeoff:hover .Homeoffice{
+    background-color: transparent;
+}
+    </style>
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="./CASE BASE.png" alt="logo">
+        </div>
+        <div class="topdiv">
+        
+            <div class="casesl">
+             <button class="cas">CASES & SLEEVES</button>
+             <div class="dropcas">
+                <a href="#">Samsung</a><br>
+                <a href="#">IPhone</a><br>
+                <a href="#">Oneplus</a><br>
+             </div>
+            </div>
+            <div class="bagandwall">
+                <button class="bagwall">BAGS & WALLETS</button>
+                <div class="dropbagwall">
+                   <a href="#">Cable</a><br>
+                   <a href="#">Charger</a><br>
+                   <a href="#">Earbuds</a><br>
+                </div>
+               </div>
+            <div class="access">
+                <button class="acc">ACCESSORIES</button>
+                <div class="dropacc">
+                   <a href="#">Cable</a><br>
+                   <a href="#">Charger</a><br>
+                   <a href="#">Earbuds</a><br>
+                </div>
+               </div>
+               <div class="Homeoff">
+                <button class="Homeoffice">HOME OFFICE</button>
+                <div class="dropHome">
+                   <a href="#">Watch</a><br>
+                   <a href="#">Laptop</a><br>
+                </div>
+               </div>
+            </div>
+        <div class="endlogo">
+            
+            <div>
+                <a href="./cart.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/1656/1656850.png" alt="bagg">
+            </a>
+            </div>
+
+            <div>
+               <a href="./login.html">
+                <img class="login"  src="https://cdn-icons-png.flaticon.com/512/152/152533.png" alt="login">
+            </a>
+         </div>
+            <div>
+                <a href="./productpage.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/149/149852.png" alt="search">
+            </a>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+<div class="salelogo">
+    <div class="green">
+        <h1>UPTO 70%</h1>
+        <p>REPUBLIC DAY SALE</p>
+    </div>
+    <div class="white">
+        <p>FREE <br>
+           DUFFLE BAG WORTH ₹2999 ON ORDERS ABOVE ₹2499
+        </p>
+        <hr>
+        <p>BI-FOLD WALLET WORTH ₹1999 ON ORDERS ABOVE ₹1999</p>
+    </div>
+</div>
+<div class="bagb">
+    <img src="./bagbag.png" alt="bagbag">
+</div>
+<div class="shopby">
+    <div>
+    <h1>SHOP CATEGORIES</h1>
+    <p>Now browse our selection of carefully curated products in sorted categories.</p>
+    </div>
+    <div>
+        <img src="./cas.png" alt="cas">
+        <p>CASES</p>
+    </div>
+    <div>
+        <img src="./laplap.png" alt="lap">
+        <p>LAPTOP SLEEVES</p>
+    </div>
+    <div>
+        <img src="./carge.png" alt="charge">
+        <p>CHARGING SOLUTION</p>
+    </div>
+    <div>
+        <img src="./tote.png" alt="tote">
+        <p>TOTE BAGS</p>
+    </div>
+</div>
+<div class="wat">
+    <img src="./WATCH.png" alt="WATCH">
+</div>
+<h1>STUDIO COLLECTIONS</h1>
+<div class="bottom">
+<div>
+    <img src="./DreamScape.png" alt="DreamScape">
+    <h2>DREAMSCAPE</h2>
+    <p>A vivid dream journal that lets you carry your daydreaming stance into real life.
+       <u>Shop Now</u></p>
+</div>
+<div>
+    <img src="./Zodiac.png" alt="Zodiac">
+    <h2>ZODIAC</h2>
+    <p>Zodiac Collection reflects the unique personality of every individual out there!
+        <u>Shop Now</u></p>
+</div>
+<div>
+    <img src="./Pixel.png" alt="Pixel">
+    <h2>PIXEL</h2>
+    <p>A reflection of modern pop-culture with a vintage appeal that evokes nostalgia.
+        <u>Shop Now</u></p>
+</div>
+
+</div>
+<div class="story">
+    <div>
+        <h1>OUR STORY</h1>
+        <p>Founded in 2012, DailyObjects is a design-obsessed lifestyle accessories brand committed to making your everyday carry #lessordinary. <br>
+        You can look forward to a carefully-crafted range of products, made from long-lasting materials, with designs that stand out and make your life easy. With DailyObjects, let your lifestyle reflect your sensibilities as you go on to make your every day #lessordinary.       
+        <u>Read more</u></p>
+    </div>
+    <div>
+        <img src="./story.png" alt="story">
+    </div>
+</div>
+<hr>
+<div class="feature"><img src="./Feature.png" alt="feature"></div>
+<hr>
+<img src="./end.png" alt="end">
+
+
+</body>
+</html>
