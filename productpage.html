@@ -309,6 +309,7 @@ data.forEach((element)=>{
   let divEle=document.createElement("div")
   let imgEle=document.createElement("img")
   imgEle.src=element.image
+  imgEle.style.width="100%"
   let h2=document.createElement("h2")
   h2.innerText=element.name
   let pt=document.createElement("p")
@@ -323,7 +324,7 @@ data.forEach((element)=>{
     localStorage.setItem("CWCART",JSON.stringify(CartArr))
   })
 
-  divEle.append(imgEle)
+  divEle.append(imgEle,h2,pt,button)
   cointainerEle.append(divEle)
 
 
